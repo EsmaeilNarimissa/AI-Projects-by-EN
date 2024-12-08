@@ -1,12 +1,12 @@
-\# PDF Intelligence Hub: Advanced Multi-Agent Document Analysis System
+# PDF Intelligence Hub: Advanced Multi-Agent Document Analysis System
 
 A cutting-edge document analysis platform powered by multi-agent AI technology, combining advanced RAG (Retrieval-Augmented Generation) capabilities with collaborative intelligence.
 
-\#\# 🚀 Overview
+## 🚀 Overview
 
 PDF Intelligence Hub revolutionizes document analysis by leveraging CrewAI's powerful multi-agent framework. Our system employs specialized AI agents working in harmony to deliver comprehensive insights and analysis.
 
-\#\#\# 🌟 Key Features
+### 🌟 Key Features
 
 \- \*\*Multi-Agent Architecture\*\*: Collaborative agents for deeper document understanding.
 
@@ -28,7 +28,7 @@ PDF Intelligence Hub revolutionizes document analysis by leveraging CrewAI's pow
 
 \- \*\*Extensible Framework\*\*: Add new agents for domain-specific needs.
 
-\#\#\# System Components
+### System Components
 
 \`\`\`plaintext
 
