@@ -8,27 +8,22 @@ PDF Intelligence Hub revolutionizes document analysis by leveraging CrewAI's pow
 
 ### 🌟 Key Features
 
-\- \*\*Multi-Agent Architecture\*\*: Collaborative agents for deeper document understanding.
+- **Multi-Agent Architecture**: Collaborative agents for deeper document understanding.
+- **Interactive Web Interface**: Intuitive document interaction powered by Streamlit.
+- **Configurable System**: Easily customizable via YAML-based configuration.
+- **Advanced RAG Implementation**: Sophisticated question-answering and analysis capabilities.
+- **Real-Time Processing**: Instant feedback and analysis results.
 
-\- \*\*Interactive Web Interface\*\*: Intuitive document interaction powered by Streamlit.
+## 🛠️ Technical Architecture
 
-\- \*\*Configurable System\*\*: Easily customizable via YAML-based configuration.
+### Agent Ecosystem
 
-\- \*\*Advanced RAG Implementation\*\*: Sophisticated question-answering and analysis capabilities.
-
-\- \*\*Real-Time Processing\*\*: Instant feedback and analysis results.
-
-\#\# 🛠️ Technical Architecture
-
-\#\#\# Agent Ecosystem
-
-\- \*\*PDF RAG Agent\*\*: Specializes in precise content retrieval and contextual analysis.
-
-\- \*\*Summary Agent\*\*: Creates comprehensive document summaries and insights.
-
-\- \*\*Extensible Framework\*\*: Add new agents for domain-specific needs.
+- **PDF RAG Agent**: Specializes in precise content retrieval and contextual analysis.
+- **Summary Agent**: Creates comprehensive document summaries and insights.
+- **Extensible Framework**: Add new agents for domain-specific needs.
 
 ### System Components
+
 
 \`\`\`plaintext
 
@@ -177,12 +172,9 @@ expected_output: Well-structured document analysis
 -   Enhanced response formatting.
 -   Additional file format support.
 
-
-
 **🌟 Acknowledgments**
 
 -   Built with **CrewAI**.
 -   Powered by **OpenAI's language models**.
 -   Web interface developed with **Streamlit**.
 -   Special thanks to the open-source community.
-
