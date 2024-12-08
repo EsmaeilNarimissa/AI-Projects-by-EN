@@ -22,7 +22,7 @@ PDF Intelligence Hub revolutionizes document analysis by leveraging CrewAI's pow
 - **Summary Agent**: Creates comprehensive document summaries and insights.
 - **Extensible Framework**: Add new agents for domain-specific needs.
 
-### System Components
+### **System Components**
 
 
 \`\`\`plaintext
@@ -45,15 +45,15 @@ pdf_rag/
 
 │ └── streamlit_app.py \# Web interface
 
-**🚀 Getting Started**
+## **🚀 Getting Started**
 
-**Prerequisites**
+### **Prerequisites**
 
 -   Python 3.10–3.13
 -   OpenAI API key
 -   Basic understanding of PDF document processing
 
-**Installation**
+### **Installation**
 
 1.  Clone the repository:
 2.  git clone [repository-url]
@@ -63,48 +63,48 @@ pdf_rag/
 6.  Install dependencies:
 7.  pip install -r requirements.txt
 
-**Running the Application**
+### **Running the Application**
 
-**Web Interface (Recommended)**
+#### **Web Interface (Recommended)**
 
 Launch the web interface:
 
 streamlit run src/pdf_rag/streamlit_app.py
 
-**Command Line Interface**
+#### **Command Line Interface**
 
 Execute the system via CLI:
 
 python src/pdf_rag/main.py run
 
-**💡 Use Cases**
+## **💡 Use Cases**
 
-**Enterprise Applications**
+### **Enterprise Applications**
 
 -   **Contract Analysis**: Extract key terms and obligations.
 -   **Policy Review**: Analyze compliance and requirements.
 -   **Research Synthesis**: Compile insights from multiple documents.
 -   **Due Diligence**: Comprehensive document reviews.
 
-**Academic Research**
+### **Academic Research**
 
 -   **Literature Review**: Analyze academic papers efficiently.
 -   **Research Analysis**: Extract methodologies and findings.
 -   **Citation Network**: Understand paper relationships.
 -   **Thesis Analysis**: Comprehensive dissertation reviews.
 
-**Legal Operations**
+### **Legal Operations**
 
 -   **Case Law Analysis**: Review legal precedents.
 -   **Document Discovery**: Efficient legal document processing.
 -   **Compliance Check**: Regulatory requirement analysis.
 -   **Contract Review**: Detailed agreement analysis.
 
-**🔧 Configuration**
+## **🔧 Configuration**
 
-**Agent Configuration**
+### **Agent Configuration**
 
-Customize agent behaviors in config/agents.yaml:
+**Customize agent behaviors in config/agents.yaml**
 
 pdf_rag_agent:
 
@@ -122,7 +122,7 @@ goal: Creating comprehensive document summaries
 
 backstory: Expert in synthesizing information
 
-**Task Configuration**
+### **Task Configuration in config/tasks.yaml**
 
 Define workflows in config/tasks.yaml:
 
@@ -138,7 +138,7 @@ description: Generate comprehensive summaries
 
 expected_output: Well-structured document analysis
 
-**🔄 System Workflow**
+### **🔄 System Workflow**
 
 1.  **Document Upload**
     -   Upload PDFs via the web interface.
@@ -155,9 +155,9 @@ expected_output: Well-structured document analysis
     -   Citations of relevant document sections.
     -   Option to ask follow-up questions.
 
-**🛣️ Future Development**
+## **🛣️ Future Development**
 
-**Planned Features**
+### **Planned Features**
 
 -   Cross-document analysis capabilities.
 -   Domain-specific agent specialization.
@@ -165,14 +165,14 @@ expected_output: Well-structured document analysis
 -   API endpoint implementation.
 -   Batch processing capabilities.
 
-**Enhancement Areas**
+### **Enhancement Areas**
 
 -   Advanced document preprocessing.
 -   Improved agent collaboration patterns.
 -   Enhanced response formatting.
 -   Additional file format support.
 
-**🌟 Acknowledgments**
+## **🌟 Acknowledgments**
 
 -   Built with **CrewAI**.
 -   Powered by **OpenAI's language models**.
