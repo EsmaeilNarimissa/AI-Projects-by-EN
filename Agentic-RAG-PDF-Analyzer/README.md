@@ -178,4 +178,3 @@ expected_output: Well-structured document analysis
 -   Powered by **OpenAI's language models**.
 -   Web interface developed with **Streamlit**.
 -   Special thanks to the open-source community.
-
