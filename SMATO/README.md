@@ -68,8 +68,8 @@ A sophisticated Python-based tool orchestration system that synergistically comb
 
 1. **Clone the Repository**:
    ```bash
-   git clone <repository-url>
-   cd smato
+   git clone https://github.com/EsmaeilNarimissa/AI-Projects-by-EN.git
+   cd AI-Projects-by-EN/SMATO
    ```
 
 2. **Create and Activate a Virtual Environment**:
@@ -239,6 +239,58 @@ Assistant: [Combined weather data and analysis]
 
 ---
 
+## 🐳 Docker Support
+
+You can run SMATO using Docker. This is the recommended way as it ensures consistent behavior across different environments.
+
+### Prerequisites
+- Docker Desktop installed
+- Docker Compose installed
+
+### Running with Docker
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/EsmaeilNarimissa/AI-Projects-by-EN.git
+   cd AI-Projects-by-EN/SMATO
+   ```
+
+2. Create your environment file:
+   ```bash
+   cp .env.example .env
+   ```
+   Edit `.env` and add your API keys.
+
+3. Build and run with Docker Compose:
+   ```bash
+   # Build the container
+   docker-compose build
+
+   # Run interactively
+   docker-compose run --rm smato
+   ```
+
+4. Available commands in SMATO:
+   - `/help` - Show all commands
+   - `/exit` - Exit the application
+   - `/clear` - Clear conversation history
+   - `/history` - View conversation history
+   - `/debug` - Toggle debug mode
+
+### Troubleshooting Docker
+
+If you encounter any issues:
+1. Make sure Docker Desktop is running
+2. Try cleaning Docker cache:
+   ```bash
+   docker-compose down
+   docker system prune -f
+   docker-compose build --no-cache
+   ```
+3. Verify your `.env` file exists and contains valid API keys
+
+---
+
 ## Project Architecture
 
 ```plaintext
@@ -297,6 +349,14 @@ mypy .    # Type checking
 3. Commit changes
 4. Push to branch
 5. Create Pull Request
+
+---
+
+## Contact
+
+For questions, suggestions, or issues, please contact:
+- Email: esmaeil.narimissa@gmail.com
+- GitHub: [EsmaeilNarimissa](https://github.com/EsmaeilNarimissa)
 
 ---
 
